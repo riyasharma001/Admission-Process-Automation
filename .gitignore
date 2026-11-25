@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# build output
+client/dist/
+
+# environment files
+.env
+.env.local
+!.env.example
+
+# uploaded documents (keep the folder, not the files)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# logs and OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
